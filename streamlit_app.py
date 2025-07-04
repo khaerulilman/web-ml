@@ -8,7 +8,7 @@ st.set_page_config(page_title="Apriori Hukum Tajwid", layout="wide")
 st.title("🕌 Apriori: Analisis Pola Hukum Tajwid")
 
 # URL API Flask
-API_URL = "https://web-production-012bf.up.railway.app/"
+API_URL = "http://localhost:5000"
 
 # Fungsi untuk mengecek koneksi API
 def check_api_connection():
